@@ -1,0 +1,42 @@
+# .dockerignore for C# projects in Visual Studio Code
+
+# Ignore build artifacts and object files
+bin/
+obj/
+
+# Ignore NuGet packages
+**/packages/
+
+# Ignore generated files
+*.dll
+*.exe
+*.pdb
+*.userprefs
+
+# Ignore Visual Studio and VS Code specific files
+.vscode/
+.vs/
+
+# Ignore .NET Core artifacts
+**/bin/
+**/obj/
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.userprefs
+**/*.log
+
+# Ignore Docker specific files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore editor specific files
+*.swp
+*~
+
+# Ignore .NET Core runtime files
+Microsoft.AspNetCore.All
+Microsoft.AspNetCore.App
+Microsoft.NETCore.App
+Microsoft.AspNetCore.Worker

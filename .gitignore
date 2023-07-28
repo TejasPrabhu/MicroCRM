@@ -1,0 +1,106 @@
+# Build output
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VSCode specific files
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.opendb
+*.iobj
+*.pdb
+*.ipdb
+*.pgen
+*.mdf
+*.ldf
+*.sdf
+*.msi
+*.deploymentmanifest
+*.testsettings
+*.dll.config
+*.pubxml
+*.publishproj
+*.cache
+*.userprefs
+*.tlog
+*.diff
+
+# Rider
+.idea/
+
+# Mac
+*.DS_Store
+
+# Xamarin
+*.userprefs
+*.xamarin.user
+/obj/
+*.dll
+*.sln.ide
+/.idea/
+/ios/*/bin/
+/ios/*/obj/
