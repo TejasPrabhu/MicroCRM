@@ -19,7 +19,7 @@ if (builder.Environment.IsProduction())
 {
     Console.WriteLine("--> Using SqlServer Db");
     builder.Services.AddDbContext<AppDbContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("PlatformsConn")));
+        options.UseSqlServer(builder.Configuration.GetConnectionString("CommandConn")));
 }
 else
 {
@@ -50,5 +50,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+PrepDb.PrePopulation(app);
+
 
 app.Run();
